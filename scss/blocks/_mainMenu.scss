@@ -1,0 +1,21 @@
+.b-mainMenu {
+
+  &__item {
+    margin: 0 14px;
+  }
+
+  &__link {
+    font-family: 'Barlow', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+
+    &:hover {
+      color: #e9ff00;
+    }
+  }
+
+  &_paddingForHeader {
+    padding: 20px 50px 8px;
+  }
+}

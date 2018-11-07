@@ -1,0 +1,15 @@
+.b-socials {
+  margin-left: 16px;
+
+  &__item_headerSite {
+    margin: 0 4px;
+  }
+
+  &__link {
+    color: #fff;
+
+    &:hover {
+      color: #e9ff00;
+    }
+  }
+}
