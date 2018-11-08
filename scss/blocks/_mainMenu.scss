@@ -1,7 +1,32 @@
 .b-mainMenu {
-
+  background: rgba(0,0,0,0.7);
   &__item {
-    margin: 0 14px;
+    padding: 0 14px;
+    position: relative;
+
+    &_active {
+
+      .b-mainMenu__hrLine {
+        display: block;
+      }
+
+      &:hover {
+
+        .b-mainMenu__link {
+          color: #fff;
+        }
+      }
+    }
+
+    @include media-breakpoint-down(md) {
+      text-align: center;
+      width: 30%;
+      margin: 0 auto;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    background: rgba(0,0,0,0.7);
   }
 
   &__link {
@@ -17,5 +42,16 @@
 
   &_paddingForHeader {
     padding: 20px 50px 8px;
+  }
+
+  &__hrLine {
+    display: none;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: calc(50%);
+    left: 0;
+    z-index: 999;
+    border: 1px solid;
   }
 }

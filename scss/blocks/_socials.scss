@@ -1,8 +1,20 @@
 .b-socials {
   margin-left: 16px;
 
+  &_headerSite {
+    @include media-breakpoint-down(md) {
+      flex-direction: row;
+      justify-content: center;
+      margin: 30px 0 10px;
+    }
+  }
+
   &__item_headerSite {
     margin: 0 4px;
+
+    @include media-breakpoint-down(md) {
+      margin: 0 24px;
+    }
   }
 
   &__link {
