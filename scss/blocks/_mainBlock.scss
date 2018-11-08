@@ -1,0 +1,26 @@
+.b-mainBlock {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background: url(../images/pic1.jpg) center, indigo;
+  background-size: cover;
+  background-blend-mode: hard-light;
+
+  &__container {
+    width: 920px;
+    height: 365px;
+    margin: 488px 0 0 376px;
+  }
+
+  &__newTour {
+    width: 581px;
+    background-color: #1b2550;
+    height: 42px;
+
+    &_red {
+
+    }
+  }
+}

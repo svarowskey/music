@@ -6825,31 +6825,23 @@ a.text-dark:hover, a.text-dark:focus {
     z-index: 999;
     border: 1px solid; }
 
-.b-mainSlider {
+.b-mainBlock {
   margin: 0;
   padding: 0;
   height: 100vh;
   width: 100%;
-  background-color: #000;
-  position: relative; }
-  .b-mainSlider__container {
-    padding: 0; }
-  .b-mainSlider__slide1 {
-    background: url(../images/pic1.jpg) center, indigo;
-    background-size: cover;
-    background-blend-mode: hard-light; }
-  .b-mainSlider__slide2 {
-    background: url(../images/pic2.jpg) center, darkorchid;
-    background-size: cover;
-    background-blend-mode: hard-light; }
-  .b-mainSlider__slide3 {
-    background: url(../images/pic3.jpg) center;
-    background-size: cover; }
-  .b-mainSlider__slide4 {
-    background: url(../images/pic4.jpg) center, mediumseagreen;
-    background-size: cover;
-    background-blend-mode: hard-light;
-    filter: saturate(70%); }
+  position: relative;
+  background: url(../images/pic1.jpg) center, indigo;
+  background-size: cover;
+  background-blend-mode: hard-light; }
+  .b-mainBlock__container {
+    width: 920px;
+    height: 365px;
+    margin: 488px 0 0 376px; }
+  .b-mainBlock__newTour {
+    width: 581px;
+    background-color: #1b2550;
+    height: 42px; }
 
 .b-socials {
   margin-left: 16px; }
