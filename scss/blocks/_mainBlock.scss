@@ -7,20 +7,117 @@
   background: url(../images/pic1.jpg) center, indigo;
   background-size: cover;
   background-blend-mode: hard-light;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
 
   &__container {
-    width: 920px;
+    width: 924px;
     height: 365px;
-    margin: 488px 0 0 376px;
+    margin: 0;
+    flex: 0 0 70%;
   }
 
   &__newTour {
     width: 581px;
     background-color: #1b2550;
     height: 42px;
+    display: flex;
+    position: relative;
+    margin-bottom: 28px;
 
     &_red {
-
+      width: 14px;
+      position: absolute;
+      height: 100%;
+      right: 65px;
+      background-color: #fb516e;
     }
+
+    &_green {
+      width: 65px;
+      position: absolute;
+      right: 0;
+      height: 100%;
+      background-color: #6aff7f;
+    }
+  }
+
+  &__newTourText {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 8px;
+    margin-left: 12px;
+  }
+
+  &__title {
+    font-size: 120px;
+    line-height: 98px;
+    margin-bottom: 25px;
+  }
+
+  &__desc {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  &__buttonsRow {
+    display: flex;
+    width: 610px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__buttonFindTickets {
+    font-size: 18px;
+    border: 4px solid #fff;
+    box-sizing: border-box;
+    width: 280px;
+    height: 80px;
+    text-align: center;
+    line-height: 70px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__buttonPlay {
+    display: flex;
+    border-radius: 50%;
+    background-color:  rgba(0, 0, 0, 0.29);
+    width: 92px;
+    height: 92px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__buttonPlayInner {
+    width: 79px;
+    height: 79px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+  }
+
+  &__buttonPlayTriangle {
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+    border-left: 30px solid #fff;
+    border-bottom: 18px solid transparent;
+    margin: auto;
+  }
+
+  &__textPlay {
+    font-size: 18px;
+    margin-left: -60px;
   }
 }
